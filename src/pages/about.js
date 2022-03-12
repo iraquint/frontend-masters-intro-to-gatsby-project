@@ -10,7 +10,11 @@ Page query
 This is an example for the sake of example, you'd want to use
 useStaticQuery here
 
-However, page queries have access to the page context
+You might want to do this if you don't know what's on the page
+or if you want to load a group of images
+
+However, page queries have access to the page context; and they
+also support variables and dynamic queries
 */
 
 export const query = graphql`
