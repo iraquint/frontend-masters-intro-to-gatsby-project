@@ -15,8 +15,13 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
-    "gatsby": "^3.11.1",
+    "@mdx-js/mdx": "^1.6.22",
+    "@mdx-js/react": "^1.6.22",
+    "gatsby": "^4.0.0",
+    "gatsby-plugin-mdx": "^3.9.1",
+    "gatsby-plugin-page-creator": "^4.9.1",
     "gatsby-plugin-react-helmet": "^5.9.0",
+    "gatsby-source-filesystem": "^4.9.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0"

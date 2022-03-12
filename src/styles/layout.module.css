@@ -1,0 +1,28 @@
+.header {
+  background: var(--black);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+/* this can cause naming collisions down through children, if
+a child styles any a tags. Best thing to do is probably using
+a name, here. */
+.header a {
+  color: inherit;
+  display: inline-block;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.header a:focus,
+.header a:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+.content {
+  margin: 3rem auto;
+  max-width: 54ch;
+}
